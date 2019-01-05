@@ -1,0 +1,33 @@
+.new-campaign-title {
+  padding: 10px;
+}
+
+.new-campaign-title img {
+  max-width: 80px;
+  max-height: 80px;
+  height: inherit;
+}
+
+.new-campaign-form {
+  padding: 20px;
+}
+
+.camp-submit {
+  padding: 20px;
+}
+
+.footer_buttons {
+  margin-top: 30px;
+}
+
+.commands {
+  padding: 10px;
+}
+
+.commands button{
+  max-width: 50px;
+}
+
+.buttons_add_remove{
+  margin: 30px;
+}

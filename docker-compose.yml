@@ -1,0 +1,26 @@
+---
+version: '3'
+
+services:
+  mongo:
+    image: "mongo:latest"
+    expose:
+      - "27017"
+    volumes:
+      - ./app_volumes/mongodb/DB:/data/db
+
+  backend:
+    image: com.mowitnow/scalatra_mowit
+    expose:
+      - "80"
+    ports:
+      - "8082:80"
+    volumes:
+      - ./app_volumes/conf:/app/conf
+    environment:
+      - CONFIG_FILE=/app/conf/application.conf
+
+  front:
+    build: ./front/
+    ports:
+      - "2828:80"

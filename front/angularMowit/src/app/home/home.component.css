@@ -1,0 +1,40 @@
+.home-card {
+  position: relative;
+  align : middle;
+}
+
+.home-welcome {
+  font-size: 18px;
+  font-style: italic;
+  color: #888;
+}
+
+mat-card {
+  margin : auto;
+}
+
+mat-card img {
+  max-width: 500px;
+  margin: auto;
+}
+
+mat-card-content {
+  margin : auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+mat-card-footer {
+  margin : auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+mat-card-footer button {
+  margin : auto;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 20px;
+}

@@ -1,0 +1,27 @@
+.campaigns-title {
+  padding: 10px;
+}
+
+.campaigns-title img {
+  height: inherit;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.campaings-search-card {
+
+}
+
+.campaigns-results {
+  padding: 10px;
+}
+
+.result {
+  margin: 10px;
+  width: calc(100% - 70px);
+  height: calc(100% - 70px);
+}
+
+.result-tile {
+  min-width: 285px;
+}

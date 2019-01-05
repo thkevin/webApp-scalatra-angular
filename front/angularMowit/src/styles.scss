@@ -1,0 +1,25 @@
+* {
+  font-family: Geneva, Verdana, sans-serif, Roboto, "Helvetica Neue Light";
+}
+
+app-root {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+
+a, .cp {
+  cursor: pointer;
+}
+
+a {
+	text-decoration:none;
+	color: black;
+}
+
+.fill-blank{
+  flex: 1 1 auto;
+}

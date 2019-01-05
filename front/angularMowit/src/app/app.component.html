@@ -1,0 +1,28 @@
+<div fxLayout="column" fxFlexFill fxLayoutWrap>
+  <div class="menu_toolbar">
+    <mat-toolbar color="primary">
+      <mat-toolbar-row color="accent">
+        <button mat-button [matMenuTriggerFor]="menu" ><mat-icon >menu</mat-icon></button>
+        <mat-menu #menu="matMenu" >
+          <button mat-menu-item routerLink="/home"><mat-icon >home</mat-icon>Home</button>
+          <button mat-menu-item routerLink="/campaigns"><mat-icon >history</mat-icon>Campaigns</button>
+        </mat-menu>
+        <span class="fill-blank"></span>
+        <mat-divider [vertical]="true" coler="primary"></mat-divider>
+        <span class="app-title"><a routerLink="/">MowItNow App</a></span>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </div>
+
+  <div fxFlex="grow">
+    <router-outlet></router-outlet>
+  </div>
+
+  <!-- <div fxFlex="5%">
+    <mat-toolbar color="accent">
+      <span class="fill-blank"></span>
+      <span>Kevin Th. </span>
+    </mat-toolbar>
+  </div> -->
+
+</div>
